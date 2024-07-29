@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EC4A7B2C561230005CDF5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4A7A2C561230005CDF5C /* AppDelegate.swift */; };
+		18EC4A7D2C561230005CDF5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4A7C2C561230005CDF5C /* SceneDelegate.swift */; };
+		18EC4A822C561230005CDF5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4A802C561230005CDF5C /* Main.storyboard */; };
+		18EC4A852C561230005CDF5C /* Ridecell_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4A832C561230005CDF5C /* Ridecell_Test.xcdatamodeld */; };
+		18EC4A872C561236005CDF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4A862C561236005CDF5C /* Assets.xcassets */; };
+		18EC4A8A2C561236005CDF5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4A882C561236005CDF5C /* LaunchScreen.storyboard */; };
+		18EC4A932C561445005CDF5C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4A922C561445005CDF5C /* Vehicle.swift */; };
+		18EC4A962C5614B1005CDF5C /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4A952C5614B1005CDF5C /* VehicleViewModel.swift */; };
+		18EC4A992C561512005CDF5C /* VehicleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4A982C561512005CDF5C /* VehicleMapViewController.swift */; };
+		18EC4A9B2C561D7A005CDF5C /* Test -vehicles_data RT.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4A9A2C561D7A005CDF5C /* Test -vehicles_data RT.json */; };
+		18EC4A9D2C565666005CDF5C /* VehicleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4A9C2C565666005CDF5C /* VehicleAnnotationView.swift */; };
+		18EC4A9F2C565DB2005CDF5C /* VehicleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4A9E2C565DB2005CDF5C /* VehicleCollectionViewCell.swift */; };
+		18EC4AA12C5663D8005CDF5C /* VehicleAnnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4AA02C5663D8005CDF5C /* VehicleAnnnotation.swift */; };
+		18EC4AA32C56C8DE005CDF5C /* VehicleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4AA22C56C8DE005CDF5C /* VehicleCollectionViewCell.xib */; };
+		407F19C32C57962800422D3C /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407F19C22C57962800422D3C /* UIButtonExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18EC4A772C561230005CDF5C /* Ridecell_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ridecell_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC4A7A2C561230005CDF5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EC4A7C2C561230005CDF5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18EC4A812C561230005CDF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EC4A842C561230005CDF5C /* Ridecell_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ridecell_Test.xcdatamodel; sourceTree = "<group>"; };
+		18EC4A862C561236005CDF5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EC4A892C561236005CDF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EC4A8B2C561236005CDF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC4A922C561445005CDF5C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		18EC4A952C5614B1005CDF5C /* VehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
+		18EC4A982C561512005CDF5C /* VehicleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMapViewController.swift; sourceTree = "<group>"; };
+		18EC4A9A2C561D7A005CDF5C /* Test -vehicles_data RT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Test -vehicles_data RT.json"; sourceTree = "<group>"; };
+		18EC4A9C2C565666005CDF5C /* VehicleAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAnnotationView.swift; sourceTree = "<group>"; };
+		18EC4A9E2C565DB2005CDF5C /* VehicleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCollectionViewCell.swift; sourceTree = "<group>"; };
+		18EC4AA02C5663D8005CDF5C /* VehicleAnnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAnnnotation.swift; sourceTree = "<group>"; };
+		18EC4AA22C56C8DE005CDF5C /* VehicleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleCollectionViewCell.xib; sourceTree = "<group>"; };
+		407F19C22C57962800422D3C /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EC4A742C561230005CDF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EC4A6E2C561230005CDF5C = {
+			isa = PBXGroup;
+			children = (
+				18EC4A792C561230005CDF5C /* Ridecell_Test */,
+				18EC4A782C561230005CDF5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EC4A782C561230005CDF5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4A772C561230005CDF5C /* Ridecell_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EC4A792C561230005CDF5C /* Ridecell_Test */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4A912C561432005CDF5C /* Model */,
+				18EC4A972C5614C9005CDF5C /* View */,
+				18EC4A942C561451005CDF5C /* ViewModel */,
+				407F19C02C5795E700422D3C /* Utilities */,
+				18EC4A7A2C561230005CDF5C /* AppDelegate.swift */,
+				18EC4A7C2C561230005CDF5C /* SceneDelegate.swift */,
+				18EC4A9A2C561D7A005CDF5C /* Test -vehicles_data RT.json */,
+				18EC4A862C561236005CDF5C /* Assets.xcassets */,
+				18EC4A882C561236005CDF5C /* LaunchScreen.storyboard */,
+				18EC4A8B2C561236005CDF5C /* Info.plist */,
+				18EC4A832C561230005CDF5C /* Ridecell_Test.xcdatamodeld */,
+			);
+			path = Ridecell_Test;
+			sourceTree = "<group>";
+		};
+		18EC4A912C561432005CDF5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4A922C561445005CDF5C /* Vehicle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EC4A942C561451005CDF5C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4A952C5614B1005CDF5C /* VehicleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18EC4A972C5614C9005CDF5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4A982C561512005CDF5C /* VehicleMapViewController.swift */,
+				18EC4AA02C5663D8005CDF5C /* VehicleAnnnotation.swift */,
+				18EC4A9C2C565666005CDF5C /* VehicleAnnotationView.swift */,
+				18EC4A9E2C565DB2005CDF5C /* VehicleCollectionViewCell.swift */,
+				18EC4AA22C56C8DE005CDF5C /* VehicleCollectionViewCell.xib */,
+				18EC4A802C561230005CDF5C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		407F19C02C5795E700422D3C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				407F19C12C57960100422D3C /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		407F19C12C57960100422D3C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				407F19C22C57962800422D3C /* UIButtonExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EC4A762C561230005CDF5C /* Ridecell_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC4A8E2C561236005CDF5C /* Build configuration list for PBXNativeTarget "Ridecell_Test" */;
+			buildPhases = (
+				18EC4A732C561230005CDF5C /* Sources */,
+				18EC4A742C561230005CDF5C /* Frameworks */,
+				18EC4A752C561230005CDF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ridecell_Test;
+			productName = Ridecell_Test;
+			productReference = 18EC4A772C561230005CDF5C /* Ridecell_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EC4A6F2C561230005CDF5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					18EC4A762C561230005CDF5C = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 18EC4A722C561230005CDF5C /* Build configuration list for PBXProject "Ridecell_Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EC4A6E2C561230005CDF5C;
+			productRefGroup = 18EC4A782C561230005CDF5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EC4A762C561230005CDF5C /* Ridecell_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EC4A752C561230005CDF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC4A8A2C561236005CDF5C /* LaunchScreen.storyboard in Resources */,
+				18EC4A872C561236005CDF5C /* Assets.xcassets in Resources */,
+				18EC4AA32C56C8DE005CDF5C /* VehicleCollectionViewCell.xib in Resources */,
+				18EC4A9B2C561D7A005CDF5C /* Test -vehicles_data RT.json in Resources */,
+				18EC4A822C561230005CDF5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EC4A732C561230005CDF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC4A9F2C565DB2005CDF5C /* VehicleCollectionViewCell.swift in Sources */,
+				407F19C32C57962800422D3C /* UIButtonExtension.swift in Sources */,
+				18EC4AA12C5663D8005CDF5C /* VehicleAnnnotation.swift in Sources */,
+				18EC4A962C5614B1005CDF5C /* VehicleViewModel.swift in Sources */,
+				18EC4A852C561230005CDF5C /* Ridecell_Test.xcdatamodeld in Sources */,
+				18EC4A7B2C561230005CDF5C /* AppDelegate.swift in Sources */,
+				18EC4A9D2C565666005CDF5C /* VehicleAnnotationView.swift in Sources */,
+				18EC4A992C561512005CDF5C /* VehicleMapViewController.swift in Sources */,
+				18EC4A932C561445005CDF5C /* Vehicle.swift in Sources */,
+				18EC4A7D2C561230005CDF5C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EC4A802C561230005CDF5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC4A812C561230005CDF5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EC4A882C561236005CDF5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC4A892C561236005CDF5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EC4A8C2C561236005CDF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EC4A8D2C561236005CDF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EC4A8F2C561236005CDF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTJP7DL5WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ridecell_Test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pooja-sagar.Ridecell-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EC4A902C561236005CDF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTJP7DL5WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ridecell_Test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pooja-sagar.Ridecell-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EC4A722C561230005CDF5C /* Build configuration list for PBXProject "Ridecell_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC4A8C2C561236005CDF5C /* Debug */,
+				18EC4A8D2C561236005CDF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EC4A8E2C561236005CDF5C /* Build configuration list for PBXNativeTarget "Ridecell_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC4A8F2C561236005CDF5C /* Debug */,
+				18EC4A902C561236005CDF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18EC4A832C561230005CDF5C /* Ridecell_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18EC4A842C561230005CDF5C /* Ridecell_Test.xcdatamodel */,
+			);
+			currentVersion = 18EC4A842C561230005CDF5C /* Ridecell_Test.xcdatamodel */;
+			path = Ridecell_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18EC4A6F2C561230005CDF5C /* Project object */;
+}
